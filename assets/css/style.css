@@ -64,7 +64,6 @@ button { font-family: inherit; cursor: pointer; }
   border: 1px solid rgba(255, 255, 255, .55);
 }
 .btn-ghost:hover { border-color: #fff; background: rgba(255, 255, 255, .12); }
-.btn-sm { padding: 9px 20px; font-size: 12px; }
 
 /* ---------- Header ---------- */
 .site-header {
@@ -391,7 +390,6 @@ button { font-family: inherit; cursor: pointer; }
   padding: 4px 12px; border: 1px solid rgba(255, 255, 255, .5); border-radius: 999px;
   letter-spacing: .06em; text-transform: uppercase;
 }
-.game-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
 
 /* ---------- Studio ---------- */
 .studio { background: var(--bg-soft); padding: 96px 0; }
