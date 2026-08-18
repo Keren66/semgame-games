@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EISENGARDE – Sem Game GmbH</title>
+<meta name="description" content="In einem zerrissenen Königreich führt nur die Eiserne Garde durch die Finsternis. Stelle dein Regiment zusammen und entscheide über das Schicksal der Krone.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23ea5958'/%3E%3Cpath d='M9 11h14v3.2l-2.6 6.8h-3.4l-1.5-4.4-1.5 4.4h-3.4L9 14.2V11zm4.6 2v1.4h4.8V13h-4.8z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css?v=9">
+<style>
+  .site-header { background: #fff; box-shadow: 0 1px 0 var(--line), 0 6px 24px rgba(0,0,0,.06); }
+  .detail-hero { position: relative; min-height: 62vh; display: flex; align-items: flex-end; overflow: hidden; background: #111; margin-top: var(--header-h); }
+  .detail-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .detail-hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.3) 0%, rgba(0,0,0,.05) 40%, rgba(0,0,0,.72) 100%); }
+  .detail-hero-body { position: relative; z-index: 2; width: 100%; padding: 64px 24px 56px; color: #fff; }
+  .detail-back { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: rgba(255,255,255,.8); margin-bottom: 18px; transition: color .2s var(--ease); }
+  .detail-back:hover { color: #fff; }
+  .detail-hero .game-tag { color: rgba(255,255,255,.82); margin-bottom: 10px; }
+  .detail-title { font-size: clamp(2.4rem, 6vw, 4.4rem); font-weight: 800; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 14px; text-shadow: 0 4px 32px rgba(0,0,0,.5); }
+  .detail-hero .game-desc { max-width: 640px; font-size: 15px; line-height: 1.85; color: rgba(255,255,255,.88); margin-bottom: 18px; }
+  .detail-body { padding: 72px 0 96px; }
+  .detail-grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 64px; align-items: start; }
+  .detail-long p { font-size: 16px; line-height: 1.9; color: var(--ink-2); margin-bottom: 24px; }
+  .detail-long p:first-child::first-letter { font-size: 2.6em; font-weight: 800; line-height: 1; float: left; margin: 4px 10px 0 0; color: var(--brand); }
+  .detail-panel { background: var(--bg-soft); border-top: 3px solid var(--brand); padding: 28px 26px; position: sticky; top: 96px; }
+  .detail-panel h3 { font-size: 12px; font-weight: 800; letter-spacing: .22em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 14px; }
+  .detail-panel .row { padding: 10px 0; border-top: 1px solid var(--line); font-size: 14px; }
+  .detail-panel .row:first-of-type { border-top: none; }
+  .detail-panel .k { display: block; font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 2px; }
+  .detail-panel .v { font-weight: 600; color: var(--ink); }
+  .detail-panel ul { list-style: none; margin: 0 0 8px; padding: 0; }
+  .detail-panel li { position: relative; padding: 9px 0 9px 22px; font-size: 14px; color: var(--ink-2); border-top: 1px solid var(--line); }
+  .detail-panel li::before { content: ""; position: absolute; left: 0; top: 16px; width: 7px; height: 7px; border-radius: 50%; background: var(--brand); }
+  .detail-cta { margin-top: 56px; padding: 48px 0; background: var(--dark); color: #fff; text-align: center; }
+  .detail-cta p { color: rgba(255,255,255,.72); margin-bottom: 20px; }
+  @media (max-width: 860px) {
+    .detail-grid { grid-template-columns: 1fr; gap: 40px; }
+    .detail-panel { position: static; }
+    .detail-hero { min-height: 54vh; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="../index.html" class="logo" aria-label="Sem Game – Home">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span class="logo-text">SEM&nbsp;GAME</span>
+    </a>
+    <nav class="main-nav" aria-label="Hauptnavigation">
+      <a href="../index.html#top">Start</a>
+      <a href="../index.html#games">Spiele</a>
+      <a href="../index.html#about">Über&nbsp;uns</a>
+      <a href="../index.html#careers">Karriere</a>
+    </nav>
+    <div class="header-right">
+      <div class="lang-switch" role="group" aria-label="Sprache / Language">
+        <button type="button" class="lang-btn is-active" data-lang-btn="de" aria-pressed="true">DE</button>
+        <span class="lang-sep" aria-hidden="true">|</span>
+        <button type="button" class="lang-btn" data-lang-btn="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="detail-hero">
+    <img src="../assets/img/game-eisengarde.jpg" alt="EISENGARDE">
+    <div class="detail-hero-overlay"></div>
+    <div class="container detail-hero-body">
+      <a href="../index.html#games" class="detail-back" data-i18n="detail.back">&larr; Zurück zu allen Spielen</a>
+      <p class="game-tag" data-i18n="g.tag">Taktisches Rollenspiel</p>
+      <h1 class="detail-title">EISENGARDE</h1>
+      <p class="game-desc" data-i18n="g.desc">In einem zerrissenen Königreich führt nur die Eiserne Garde durch die Finsternis. Stelle dein Regiment zusammen und entscheide über das Schicksal der Krone.</p>
+    </div>
+  </section>
+
+  <div class="detail-body">
+    <div class="container detail-grid">
+      <div class="detail-long" data-i18n-group="long">
+        <p data-i18n="g.long1">Das Königreich ist zerbrochen, die Krone ohne Erbe, und die Lande zerfressen von Krieg und Verrat. In dieser Finsternis bleibt nur eine Hoffnung: die Eiserne Garde – und ihre neue Kommandantin. Du.</p>
+        <p data-i18n="g.long2">Eisengarde ist ein taktisches Rollenspiel, in dem jede Entscheidung auf dem Schlachtfeld und jede Allianz am Hofe zählt. Stelle dein Regiment aus Söldnern, Adeligen und Geächteten zusammen, und führe sie in rundenbasierten Schlachten zum Sieg – oder in den Untergang.</p>
+        <p data-i18n="g.long3">Deine Entscheidungen formen das Schicksal der Krone: Wem dienst du, wen verrätst du, und welcher Thronfolger wird am Ende regieren? Es gibt keinen richtigen Weg – nur deinen.</p>
+      </div>
+      <aside class="detail-panel">
+        <h3 data-i18n="detail.facts">Auf einen Blick</h3>
+        <div class="row"><span class="k" data-i18n="detail.genre">Genre</span><span class="v" data-i18n="g.tag">Taktisches Rollenspiel</span></div>
+        <div class="row"><span class="k" data-i18n="detail.platforms">Plattformen</span><span class="v">PC · PlayStation 5 · Xbox Series X|S · Nintendo Switch</span></div>
+        <div class="row"><span class="k" data-i18n="detail.status">Status</span><span class="v" data-i18n="g.status">In Entwicklung</span></div>
+        <div class="row"><span class="k" data-i18n="detail.release">Release</span><span class="v">2026</span></div>
+        <h3 style="margin-top:22px" data-i18n="detail.features">Highlights</h3>
+        <ul>
+          <li data-i18n="g.f1">Rundenbasierte taktische Schlachten mit tiefem Einheiten-System</li>
+          <li data-i18n="g.f2">Verzweigte Kampagne mit mehreren Enden</li>
+          <li data-i18n="g.f3">Charaktere, die dich lieben, hassen oder verraten</li>
+          <li data-i18n="g.f4">Entwickelt mit Feedback aus der Community</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  <div class="detail-cta">
+    <div class="container">
+      <p data-i18n="detail.ctaText">Fragen zu diesem Spiel? Schreib uns gerne.</p>
+      <button type="button" class="btn btn-primary" data-contact data-i18n="detail.ctaBtn">Kontakt aufnehmen</button>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-bottom" style="border-top:none">
+    <p>&copy; 2026 Sem Game GmbH. <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></p>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js?v=7"></script>
+</body>
+</html>
