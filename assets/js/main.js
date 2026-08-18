@@ -8,8 +8,8 @@
   /* ---------------- i18n ---------------- */
   var I18N = {
     de: {
-      "nav.home": "Start", "nav.games": "Spiele", "nav.studio": "Studio",
-      "nav.about": "Über uns", "nav.news": "News", "nav.careers": "Karriere",
+      "nav.home": "Start", "nav.games": "Spiele",
+      "nav.about": "Über uns", "nav.careers": "Karriere",
 
       "hero.eyebrow": "Sem Game Studio · Indie-Games aus Deutschland",
       "hero1.kicker": "Open-World Action-Adventure",
@@ -49,10 +49,6 @@
       "game6.desc": "Richte dein kleines Licht inmitten der Bäume ein. Bewirtschafte den Wald, pflege freundliche Wesen und finde Ruhe im Wechsel der Jahreszeiten.",
       "game6.status": "In Entwicklung",
 
-      "studio.eyebrow": "Sem Studio",
-      "studio.title": "Animation, die Geschichten erzählt",
-      "studio.text": "Hinter jedem Spiel steckt eine Geschichte. Unser Animationsstudio erzählt sie in Bildern – vom Kurzfilm bis zur Cinematic, vom Storyboard bis zum finalen Frame.",
-      "studio.cta": "Werde Teil des Studios",
 
       "about.eyebrow": "Vision · Über uns",
       "about.title": "Bei Sem Game schaffen wir Welten.",
@@ -66,22 +62,12 @@
       "about.v4d": "Wir lieben das Handwerk: Animation, Musik, Erzählung – jedes Detail zählt.",
       "about.v5t": "Nachhaltig spielen",
       "about.v5d": "Wir denken langfristig: für unsere Spiele, unser Team und unseren Planeten.",
-      "about.s1": "Gegründet", "about.s2": "Talente",
-      "about.s3": "Titel & 1 Studio", "about.s4": "Spieler:innen",
 
       "careers.eyebrow": "Karriere",
       "careers.title": "Wir suchen kreative Köpfe",
       "careers.text": "Programmierung, Art, Design, Sound oder Production: Werde Teil eines Teams, das Spiele mit Herz macht.",
       "careers.cta": "Bewirb dich bei uns",
 
-      "news.eyebrow": "Aktuelles",
-      "news.title": "News",
-      "news.n1": "Lumenwacht erscheint weltweit auf PC, PlayStation 5 und Xbox Series X|S",
-      "news.n2": "Tidebreakers: Öffentliche Beta startet",
-      "news.n3": "Klangschmiede jetzt auch auf Nintendo Switch",
-      "news.n4": "Sem Game schließt neue Partnerschaft für den weltweiten Vertrieb",
-      "news.n5": "Eisengarde für den Deutschen Computerspielpreis nominiert",
-      "news.n6": "Nebelkinder ist erhältlich",
 
       "footer.slogan": "Wir schaffen Welten.",
       "footer.contact": "Kontakt",
@@ -94,8 +80,8 @@
     },
 
     en: {
-      "nav.home": "Home", "nav.games": "Games", "nav.studio": "Studio",
-      "nav.about": "About", "nav.news": "News", "nav.careers": "Careers",
+      "nav.home": "Home", "nav.games": "Games",
+      "nav.about": "About", "nav.careers": "Careers",
 
       "hero.eyebrow": "Sem Game Studio · Indie Games from Germany",
       "hero1.kicker": "Open-World Action-Adventure",
@@ -135,10 +121,6 @@
       "game6.desc": "Set up your little light among the trees. Tend the forest, care for friendly creatures and find peace in the passing of the seasons.",
       "game6.status": "In development",
 
-      "studio.eyebrow": "Sem Studio",
-      "studio.title": "Animation that tells stories",
-      "studio.text": "Behind every game is a story. Our animation studio tells it in pictures – from short films to cinematics, from storyboard to final frame.",
-      "studio.cta": "Join the studio",
 
       "about.eyebrow": "Vision · About us",
       "about.title": "At Sem Game, we create worlds.",
@@ -152,22 +134,12 @@
       "about.v4d": "We love the craft: animation, music, storytelling – every detail matters.",
       "about.v5t": "Play sustainably",
       "about.v5d": "We think long-term: for our games, our team and our planet.",
-      "about.s1": "Founded", "about.s2": "Talents",
-      "about.s3": "Titles & 1 studio", "about.s4": "Players",
 
       "careers.eyebrow": "Careers",
       "careers.title": "We are looking for creative minds",
       "careers.text": "Programming, art, design, sound or production: join a team that makes games with heart.",
       "careers.cta": "Apply to us",
 
-      "news.eyebrow": "Latest news",
-      "news.title": "News",
-      "news.n1": "Lumenwacht launches worldwide on PC, PlayStation 5 and Xbox Series X|S",
-      "news.n2": "Tidebreakers: open beta begins",
-      "news.n3": "Klangschmiede now on Nintendo Switch",
-      "news.n4": "Sem Game signs new partnership for worldwide distribution",
-      "news.n5": "Eisengarde nominated for the German Computer Games Award",
-      "news.n6": "Nebelkinder is out now",
 
       "footer.slogan": "We create worlds.",
       "footer.contact": "Contact",
